@@ -3,9 +3,9 @@
 const typedTextSpan = document.querySelector(".typed-text");
 const cursorSpan = document.querySelector(".cursor");
 
-const textArray = ["Made by Anzarie K. Laguiamuda", "Contact me!"];
-const typingDelay = 100;
-const erasingDelay = 80;
+const textArray = ["\"The future belongs to those who believe in the beauty of their dreams.\" - Eleanor Roosevelt", "\"The only way to do great work is to love what you do.\" - Steve Jobs", "\"The only limit to our realization of tomorrow will be our doubts of today.\" - Franklin D. Roosevelt"];
+const typingDelay = 50;
+const erasingDelay = 10;
 const newTextDelay = 1000; // Delay between current and next text
 let textArrayIndex = 0;
 let charIndex = 0;
